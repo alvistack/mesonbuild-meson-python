@@ -3,3 +3,5 @@ docs/_build
 *.pyc
 .cache/
 dist/
+.pybuild/
+*.egg-info/

@@ -1,0 +1,5 @@
+python-meson-python (100:0.10.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/mesonbuild/meson-python/releases/tag/0.10.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Thu, 03 Nov 2022 17:03:07 +0800
