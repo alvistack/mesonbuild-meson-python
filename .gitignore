@@ -4,3 +4,5 @@ docs/_build
 .cache/
 dist/
 .coverage
+.pybuild/
+*.egg-info/
