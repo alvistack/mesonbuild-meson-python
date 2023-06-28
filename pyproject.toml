@@ -6,7 +6,6 @@
 build-backend = 'mesonpy'
 backend-path = ['.']
 requires = [
-  'meson >= 0.63.3',
   'pyproject-metadata >= 0.7.1',
   'tomli >= 1.0.0; python_version < "3.11"',
   'setuptools >= 60.0; python_version >= "3.12"',
@@ -14,6 +13,7 @@ requires = [
 
 [project]
 name = 'meson-python'
+version = '0.13.2'
 description = 'Meson Python build backend (PEP 517)'
 readme = 'README.rst'
 requires-python = '>= 3.7'
@@ -29,14 +29,9 @@ classifiers = [
 
 dependencies = [
   'colorama; os_name == "nt"',
-  'meson >= 0.63.3',
   'pyproject-metadata >= 0.7.1',
   'tomli >= 1.0.0; python_version < "3.11"',
   'setuptools >= 60.0; python_version >= "3.12"',
-]
-
-dynamic = [
-  'version',
 ]
 
 [project.optional-dependencies]
